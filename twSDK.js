@@ -14,7 +14,7 @@
     This notice may not be removed or altered from any source distribution.
  */
 
-scriptUrl = document.currentScript.src;
+const scriptUrl = document.currentScript ? document.currentScript.src : "";
 
 window.twSDK = {
     // variables
